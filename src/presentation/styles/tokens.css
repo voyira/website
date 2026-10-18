@@ -1,0 +1,12 @@
+/* Tokens */
+:root {
+  --paper: #f8f7f3;
+  --white: #fff;
+  --ink: #202321;
+  --muted: #72746f;
+  --orange: #ef754d;
+  --orange-dark: #cf522c;
+  --border: #dedfd7;
+  --dark: #242824;
+  --font: Manrope, Arial, sans-serif;
+}

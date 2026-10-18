@@ -1,0 +1,42 @@
+/* Dialog */
+dialog {
+  width: min(540px, calc(100% - 40px));
+  padding: 32px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 20px 80px #0003;
+}
+dialog::backdrop {
+  background: #222a2580;
+  backdrop-filter: blur(5px);
+}
+.dialog-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.close-dialog {
+  border: 0;
+  background: none;
+  font-size: 30px;
+  line-height: 1;
+}
+dialog h2 {
+  font-size: 29px;
+  letter-spacing: -1px;
+}
+dialog p {
+  font-size: 13px;
+  margin: 20px 0;
+  color: var(--muted);
+}
+dialog .button {
+  padding: 11px 24px;
+  font-size: 12px;
+}
+.dialog-top .wordmark {
+  width: 106px;
+}

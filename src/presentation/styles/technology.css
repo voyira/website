@@ -1,0 +1,84 @@
+/* Technology */
+.tech-strip {
+  background: #fff;
+  border-bottom: 1px solid #e9ece2;
+}
+.tech-strip > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  gap: 40px;
+}
+.tech-strip > .container > span {
+  font-size: 8px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #999f91;
+}
+.tech-strip > .container > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 33px;
+  flex: 1;
+  max-width: 790px;
+}
+.tech-strip b {
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  color: #747c6b;
+}
+@media (max-width: 1150px) {
+  .tech-strip > .container > div {
+    gap: 22px;
+  }
+
+  .tech-strip b {
+    font-size: 14px;
+  }
+}
+@media (max-width: 900px) {
+  .tech-strip > .container {
+    gap: 25px;
+  }
+
+  .tech-strip > .container > span {
+    font-size: 6px;
+    max-width: 110px;
+  }
+
+  .tech-strip > .container > div {
+    gap: 15px;
+  }
+
+  .tech-strip b {
+    font-size: 12px;
+  }
+}
+@media (max-width: 700px) {
+  .tech-strip > .container {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .tech-strip > .container > span {
+    font-size: 7px;
+    max-width: none;
+  }
+
+  .tech-strip > .container > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 27px;
+    justify-content: start;
+    margin-top: 14px;
+  }
+
+  .tech-strip b {
+    font-size: 15px;
+  }
+}

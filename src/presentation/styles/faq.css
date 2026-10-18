@@ -1,0 +1,132 @@
+/* Faq */
+.faq {
+  background: #fff;
+}
+.faq-grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 100px;
+}
+.faq h2 {
+  margin-top: 18px;
+}
+.faq-grid > div:first-child > p {
+  font-size: 12px;
+  color: var(--muted);
+  max-width: 280px;
+  margin: 23px 0;
+}
+.faq-grid .text-link {
+  border-bottom: 1px solid #d6dacf;
+  padding-bottom: 7px;
+}
+.faq-list {
+  border-top: 1px solid var(--border);
+}
+details {
+  border-bottom: 1px solid var(--border);
+  padding: 23px 0;
+}
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary i {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+}
+summary i:before,
+summary i:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 11px;
+  background: var(--ink);
+  left: 1px;
+  top: 6px;
+}
+summary i:after {
+  transform: rotate(90deg);
+  transition: transform 0.2s;
+}
+details[open] summary i:after {
+  transform: rotate(0);
+}
+details[open] summary {
+  color: var(--orange-dark);
+}
+details p {
+  font-size: 12px;
+  color: var(--muted);
+  padding: 15px 33px 2px 0;
+  line-height: 1.9;
+}
+@media (max-width: 1150px) {
+  .faq-grid {
+    gap: 65px;
+  }
+}
+@media (max-width: 900px) {
+  .faq-grid {
+    gap: 40px;
+    grid-template-columns: 0.8fr 1.2fr;
+  }
+
+  summary {
+    font-size: 11px;
+  }
+
+  details p {
+    font-size: 10px;
+  }
+
+  .faq-grid > div:first-child > p {
+    font-size: 11px;
+  }
+}
+@media (max-width: 700px) {
+  .faq-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .faq h2 br {
+    display: none;
+  }
+
+  .faq-grid > div:first-child > p {
+    font-size: 12px;
+    max-width: 350px;
+    margin-top: 18px;
+    margin-bottom: 14px;
+  }
+
+  .faq-grid .text-link {
+    font-size: 12px;
+  }
+
+  summary {
+    font-size: 12px;
+  }
+
+  details {
+    padding: 21px 0;
+  }
+
+  details p {
+    font-size: 12px;
+    padding-right: 15px;
+  }
+}

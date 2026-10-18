@@ -1,0 +1,37 @@
+/* Fonts */
+@font-face {
+  font-family: Manrope;
+  src: url('/assets/fonts/manrope-400.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: Manrope;
+  src: url('/assets/fonts/manrope-500.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: Manrope;
+  src: url('/assets/fonts/manrope-600.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: Manrope;
+  src: url('/assets/fonts/manrope-700.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: Manrope;
+  src: url('/assets/fonts/manrope-800.ttf') format('truetype');
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: Outfit;
+  src: url('/assets/fonts/outfit-900.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+}
