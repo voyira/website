@@ -9,3 +9,31 @@
 .copy-brief{background:none;border:0;padding:0;text-decoration:underline;text-underline-offset:2px;font-size:inherit;color:var(--orange-dark)}html[lang=tr] .hero h1{font-size:clamp(45px,4.7vw,66px);letter-spacing:-3.8px}html[lang=tr] .hero-description{max-width:390px}html[lang=tr] .hero-bottom>span{font-size:7px}html[lang=tr] .service-card h3{font-size:21px}html[lang=tr] .services-extra{font-size:10px}html[lang=tr] .process-tab{font-size:11px}@media(max-width:900px) and (min-width:701px){html[lang=tr] .hero h1{font-size:43px;letter-spacing:-2.8px}html[lang=tr] .service-card h3{font-size:17px}html[lang=tr] .process-tab{font-size:9px}html[lang=tr] .hero-bottom>span{font-size:5px}}@media(max-width:700px){html[lang=tr] .hero h1{font-size:53px;letter-spacing:-3px}html[lang=tr] .hero-bottom>span{font-size:6px}html[lang=tr] .service-card h3{font-size:23px}html[lang=tr] .services-extra{font-size:11px}}@media(max-width:370px){html[lang=tr] .hero h1{font-size:46px;letter-spacing:-2.5px}}
 .wordmark{width:140px;display:inline-flex;align-items:center;flex-shrink:0;line-height:0}.wordmark svg{width:100%;height:auto;max-height:51px}.footer .wordmark{width:129px}.dialog-top .wordmark{width:106px}@media(max-width:900px){.wordmark{width:122px}}@media(max-width:700px){.wordmark{width:123px}.footer .wordmark{width:118px}}
 @media(max-width:700px){html[lang=tr] .hero h1{font-size:clamp(39px,11.5vw,53px);letter-spacing:-2.8px}}@media(max-width:370px){html[lang=tr] .hero h1{font-size:clamp(36px,11.5vw,43px);letter-spacing:-2.4px}}
+
+/* Detailed services: four capabilities, with a clear list of deliverables. */
+.services-detailed{background:#fafaf8}
+.services-detailed .section-heading{display:grid;grid-template-columns:7fr 5fr;gap:40px;margin-bottom:48px}
+.services-detailed .section-heading>p{max-width:none;font-size:14px;line-height:1.8;padding-bottom:3px}
+.services-detailed h2>span{color:var(--orange-dark)}
+.services-detailed .service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+.services-detailed .service-card{position:relative;padding:39px;border:1px solid #e6e7df;border-radius:16px;background:#fff;overflow:hidden;transition:border-color .3s,box-shadow .3s,transform .3s}
+.services-detailed .service-card:hover{transform:translateY(-4px);border-color:#e4bba7;box-shadow:0 16px 35px #6f4f2a08}
+.services-detailed .card-top{margin-bottom:27px;align-items:center}
+.services-detailed .service-icon{height:48px;width:48px;border-radius:12px;display:grid;place-items:center;background:#fbefe8;color:var(--orange-dark);transform:none}
+.services-detailed .service-icon svg{height:25px;width:25px;stroke:currentColor;stroke-width:2.5}
+.services-detailed .card-number{font-family:monospace;font-size:30px;font-weight:600;color:#e0e2d9;letter-spacing:-2px;line-height:1;transition:color .3s}
+.services-detailed .service-card:hover .card-number{color:#efcbb9}
+.services-detailed .service-card h3,html[lang=tr] .services-detailed .service-card h3{font-size:21px;font-weight:700;letter-spacing:-.6px;margin-bottom:12px;transition:color .3s}
+.services-detailed .service-card:hover h3{color:var(--orange-dark)}
+.services-detailed .service-card>p{font-size:13px;line-height:1.85;min-height:73px;flex:0 0 auto}
+.services-detailed .service-card:nth-child(2) .service-icon{transform:none}
+.service-features{list-style:none;padding:25px 0 0;margin:23px 0 33px;border-top:1px solid #edf0e6;display:flex;flex-direction:column;gap:12px;flex:1}
+.service-features li{display:flex;gap:12px;align-items:flex-start;font-size:12px;line-height:1.7;color:#535a4c}
+.service-features li>span:first-child{color:var(--orange-dark);font-size:15px;line-height:1.35;flex-shrink:0;padding-top:2px}
+.services-detailed .card-link{border:1px solid #dedfd7;border-radius:7px;padding:13px 18px;justify-content:center;gap:14px;margin-top:auto;font-size:10px;letter-spacing:.9px;text-transform:uppercase;transition:background .25s,border-color .25s,color .25s}
+.services-detailed .card-link>span:last-child{font-size:19px;color:inherit;transition:transform .25s}
+.services-detailed .card-link:hover{background:var(--orange);border-color:var(--orange);color:var(--ink)}
+.services-detailed .card-link:hover>span:last-child{transform:translate(2px,-2px)}
+@media(max-width:1000px){.services-detailed .section-heading{gap:30px}.services-detailed .service-grid{gap:24px}.services-detailed .service-card{padding:30px}.services-detailed .service-card h3,html[lang=tr] .services-detailed .service-card h3{font-size:19px}.services-detailed .service-card>p{min-height:96px}.service-features li{font-size:11px}.services-detailed .section-heading>p{font-size:12px}}
+@media(max-width:700px){.services-detailed .section-heading{display:block;margin-bottom:32px}.services-detailed .section-heading>p{font-size:13px;margin-top:20px}.services-detailed .service-grid{grid-template-columns:1fr;gap:22px}.services-detailed .service-card{padding:28px}.services-detailed .card-top{margin-bottom:23px}.services-detailed .service-card h3,html[lang=tr] .services-detailed .service-card h3{font-size:21px}.services-detailed .service-card>p{min-height:0;font-size:12px}.service-features{margin-top:22px;margin-bottom:28px;padding-top:22px;gap:13px}.service-features li{font-size:11px}.services-detailed .card-link{font-size:10px;padding:13px 10px}.services-detailed .card-number{font-size:29px}}
+@media(max-width:370px){.services-detailed .service-card{padding:23px}.services-detailed .service-card h3,html[lang=tr] .services-detailed .service-card h3{font-size:19px}.service-features li{font-size:10px}}
