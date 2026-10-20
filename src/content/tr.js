@@ -99,8 +99,8 @@ export const messages = {
   'hero.footnote': 'Sizin fikriniz. Bizim uzmanlığımız. Ortak bir başarı.',
   'hero.mobile': 'Mobil uygulamalar',
   'hero.secondary': 'Neler yapıyoruz?',
-  'hero.title1': 'Büyük fikirler.',
-  'hero.title2': 'Sağlam temeller.',
+  'hero.title1': 'Büyük fikirler',
+  'hero.title2': 'Sağlam temeller',
   'hero.web': 'Web geliştirme',
   'meta.description':
     'Voyira ile web platformları, mobil uygulamalar ve işinize özel yazılımlar. İlk fikirden yayına kadar yazılım ortağınız.',

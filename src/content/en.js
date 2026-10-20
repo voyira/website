@@ -98,8 +98,8 @@ export const messages = {
   'hero.footnote': 'Your idea. Our craft. One great product.',
   'hero.mobile': 'Mobile applications',
   'hero.secondary': 'Explore what we do',
-  'hero.title1': 'Big ideas.',
-  'hero.title2': 'Built to work.',
+  'hero.title1': 'Big ideas',
+  'hero.title2': 'Built to work',
   'hero.web': 'Web development',
   'meta.description':
     'Voyira builds thoughtful web platforms, mobile apps and custom software. From your first idea to a product people love using.',
