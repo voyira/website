@@ -108,6 +108,7 @@ export const messages = {
   'meta.title': 'Voyira — Büyük fikirler. Sağlam temeller.',
   'nav.about': 'Biz kimiz',
   'nav.contact': 'Konuşalım',
+  'nav.contactCta': 'Bize ulaşın',
   'nav.process': 'Nasıl çalışıyoruz',
   'nav.services': 'Neler yapıyoruz',
   'privacy.body':

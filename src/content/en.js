@@ -107,6 +107,7 @@ export const messages = {
   'meta.title': 'Voyira — Big ideas. Built to work.',
   'nav.about': 'The studio',
   'nav.contact': "Let's talk",
+  'nav.contactCta': 'Contact us',
   'nav.process': 'How we work',
   'nav.services': 'What we do',
   'privacy.body':
