@@ -1,4 +1,20 @@
 export const messages = {
+  'nav.projects': 'Our projects',
+  'projects.label': 'OUR PROJECTS',
+  'projects.title': 'Ideas, brought<br>to life.',
+  'projects.intro':
+    'Different needs, the same care. Explore a few of the digital products we’ve built.',
+  'projects.visit': 'Visit website (opens in a new tab)',
+  'projects.patiklinik.category': 'Veterinary software',
+  'projects.patiklinik.body':
+    'Appointments, pet records and vaccination tracking in one platform for veterinary clinics.',
+  'projects.turnmi.category': 'E-commerce',
+  'projects.turnmi.body':
+    'A collection-led online store that brings the brand’s expressive world into the shopping experience.',
+  'projects.patikaworks.category': 'E-commerce',
+  'projects.patikaworks.body':
+    'A digital storefront for nature-inspired leather goods, clothing and timeless collections.',
+
   'a11y.close': 'Close',
   'a11y.home': 'Voyira home',
   'a11y.language': 'Language',

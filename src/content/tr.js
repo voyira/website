@@ -1,4 +1,20 @@
 export const messages = {
+  'nav.projects': 'Projelerimiz',
+  'projects.label': 'PROJELERİMİZ',
+  'projects.title': 'Fikirden<br>gerçeğe.',
+  'projects.intro':
+    'Farklı ihtiyaçlar, aynı özen. Hayata geçirdiğimiz dijital ürünlerden bazılarıyla tanışın.',
+  'projects.visit': 'Siteyi ziyaret et (yeni sekmede)',
+  'projects.patiklinik.category': 'Veteriner kliniği yazılımı',
+  'projects.patiklinik.body':
+    'Veteriner klinikleri için randevuları, evcil hayvan kayıtlarını ve aşı takibini bir araya getiren platform.',
+  'projects.turnmi.category': 'E-ticaret',
+  'projects.turnmi.body':
+    'Markanın kendine özgü dünyasını koleksiyon odaklı bir alışveriş deneyimine taşıyan online mağaza.',
+  'projects.patikaworks.category': 'E-ticaret',
+  'projects.patikaworks.body':
+    'Doğadan ilham alan deri ürünleri, giyim ve zamansız koleksiyonlar için dijital bir vitrin.',
+
   'a11y.close': 'Kapat',
   'a11y.home': 'Voyira ana sayfa',
   'a11y.language': 'Dil',
