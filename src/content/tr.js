@@ -96,7 +96,6 @@ export const messages = {
   'hero.custom': 'Özel yazılım',
   'hero.description':
     'Bir sonraki büyük fikrinizi, insanların severek kullandığı yazılımlara dönüştürüyoruz. Web, mobil ve çok daha fazlası.',
-  'hero.eyebrow': 'İYİ BİR EKİP. İYİ BİR YAZILIM.',
   'hero.footnote': 'Sizin fikriniz. Bizim uzmanlığımız. Ortak bir başarı.',
   'hero.mobile': 'Mobil uygulamalar',
   'hero.secondary': 'Neler yapıyoruz?',

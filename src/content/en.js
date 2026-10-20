@@ -95,7 +95,6 @@ export const messages = {
   'hero.custom': 'Custom software',
   'hero.description':
     'We turn your next big idea into software people love to use. Web, mobile, and everything in between.',
-  'hero.eyebrow': 'GOOD PEOPLE. GREAT SOFTWARE.',
   'hero.footnote': 'Your idea. Our craft. One great product.',
   'hero.mobile': 'Mobile applications',
   'hero.secondary': 'Explore what we do',
